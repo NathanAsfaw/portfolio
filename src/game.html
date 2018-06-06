@@ -1,0 +1,20 @@
+<svg width="500" height="500">
+   <rect x = "0" y = "0" width = "300" height = "200" fill="yellow"></rect>
+   <line x1 = "100" y1 = "100" x2 = "200" y2 = "200" 
+   style = "stroke:rgb(255,0,0);stroke-width:2"/>
+</svg>
+
+<div class="myClass">
+    <h3> Simple transitions </h3>
+    <script>
+        d3.selectAll("h3").transition()
+            .style("font-size", "18px").delay(3000).duration(2000);
+    </script>
+</div>
+<div class="myIdiot">
+
+</div>
+<script>
+    d3.select(".myClass").attr("style");
+    d3.select("myIdiot").append("svg").attr("width", "400").attr, height = "400".append("line").attr(x1)("");
+</script>
